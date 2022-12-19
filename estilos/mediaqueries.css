@@ -1,0 +1,472 @@
+/*
+Typical Devices Breakpoints
+
+320px — 480px mobile devices
+481px — 768px iPads & tablets
+769px — 1024px small screens (laptop)
+1025px — 1200px for large screens (Desktops)
+*/
+
+/*Telas Pequenas*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section#inicio {
+        background-image: url(../imagens/background2.jpg);
+        height: 640px;
+    }
+    
+    section#inicio > div#apresentacao {
+        font-size: 0.8em;
+        display: inline;
+        width: 53vw;
+        padding-left: 13%;
+        position: relative;
+        float: left;
+    }
+
+    div#fotofundoinicio {
+        height: 100%;
+        width: 33vw;
+    }
+
+    section#sobremim {
+        height: 545px;
+    }
+
+    section#sobremim > h2 {
+        font-size: 2em;
+        padding-top: 50px;
+        margin-bottom: -20px;
+    }
+
+    section#sobremim > div#sobremimtexto {
+        height: 65%;
+        width: 50%;
+        display: inline;
+        margin-right: 12%;
+        margin-top: 15%;
+        padding: 0px;
+        position: relative;
+    }
+
+
+    span#sobremimlateral {
+        float: none;
+    }
+
+    section#sobremim > div#fotofundosobremim {
+        width: 36%;
+        height: 100%;
+        margin: -60px 0px 0px 0px;
+    }
+
+    section#certificados {
+        padding: 0% 15%;
+    }
+
+    section#projetos > h2 {
+        padding: 50px 0px 35px;
+    }
+
+    section#projetos {
+        background: url(../imagens/background3.jpg);
+        background-size: 600%;
+        background-position: center;
+        padding: 0% 2% 7% 2%;
+    }
+
+    div#conticons {
+        width: 45%;
+    }    
+}
+
+/*Telas Médias*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 25px 25px 55px;
+    }
+    
+    nav > h1 {
+        margin: 2px 0px 0px -15px;
+        width: 150px;
+        height: 40px;
+    }
+    
+    nav > span#itens {
+        justify-content: space-between;
+        padding-left: 5%;
+        display: flex !important;
+        width: 100%;
+    }
+
+    nav > span#itens > a {
+        width: auto;
+        background-color: transparent;
+    }
+
+    nav > span#burguer {
+        display: none;
+    }
+
+    section#inicio {
+        background-image: url(../imagens/background2.jpg);
+        height: 640px;
+    }
+    
+    section#inicio > div#apresentacao {
+        font-size: 0.9em;
+        display: inline;
+        width: 50%;
+        padding-left: 7%;
+        position: relative;
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    section#inicio > div#apresentacao > p#medio {
+        padding-top: 250px;
+    }
+
+    div#fotofundoinicio {
+        background: url(../imagens/fundoofc.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 40%;
+        margin-right: 5%;
+        transition: background-image 0.3s;
+    }
+
+    div#fotofundoinicio:hover {
+        background: url(../imagens/fundo24.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        transition: 0.3s;
+    }
+
+    section#sobremim {
+        height: 545px;
+        background: url(../imagens/background3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    section#sobremim > h2 {
+        font-size: 2em;
+    }
+
+    section#sobremim > div#sobremimtexto {
+        width: 50%;
+        display: inline;
+        margin-right: 12%;
+        margin-top: 13%;
+        padding: 0px;
+        position: relative;
+    }
+
+    span#sobremimlateral {
+        float: none;
+    }
+
+    section#sobremim > div#fotofundosobremim {
+        display: inline;
+        position: relative;
+        background: url(../imagens/sobremimfundopeb.png);
+        width: 25%;
+        height: 80%;
+        margin-top: 4%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        transition: background-image 0.3s;
+    }
+
+    section#sobremim > div#fotofundosobremim:hover {
+        background: url(../imagens/sobremimfundocolorido.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+    }
+
+    section#certificados {
+        height: 87.5vh;
+        background: url(../imagens/background4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    section#certificados > h2 {
+        padding-top: 120px;
+    }
+
+    section#certificados > div#cert {
+        height: 150px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    div#cert > a > p {
+        padding-top: 170px;
+        text-align: center;
+        width: 110px;
+    }
+
+    section#projetos {
+        height: 100%;
+        background: url(../imagens/background3.jpg);
+        background-size: 600%;
+        background-position: center;
+        padding: 0% 10% 5% 10%;
+    }
+
+    section#projetos > h2 {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    div.projeto {
+        height: 260px;
+        width: 200px;
+    }
+
+    div.projeto > span.material-symbols-outlined{
+        font-size: 3em;
+    }
+
+    div.projeto > p {
+        font-size: 1.1em;
+        }
+
+    div#projeto1 > p {
+    margin-top: -5%;
+    }
+
+    div#projeto2 > p {
+        margin-top: -10%;
+    }
+
+    div#projeto3 > p {
+        margin-top: -10%;
+    }
+
+    div#projeto4 > p {
+        margin-top: -8%;
+    }
+
+    div#projeto5 > p {
+        margin-top: -7%;
+    }
+
+    div#projeto6 > p {
+        margin-top: -3%;
+    }
+
+    div#conticons {
+        width: 30%;
+    }      
+}
+
+/*Telas Grandes*/
+
+@media screen and (min-width: 1025px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 55px;
+    }
+    
+    nav > h1 {
+        margin: 4px 0px 0px 0px;
+        width: 150px;
+        height: 40px;
+    }
+    
+    nav > span#itens {
+        justify-content: space-between;
+        padding-left: 75px;
+        display: flex !important;
+        width: 100%;
+    }
+
+    nav > span#itens > a {
+        width: auto;
+        background-color: transparent;
+    }
+
+    nav > span#burguer {
+        display: none;
+    }
+
+    section#inicio {
+        background-image: url(../imagens/background2.jpg);
+        height: 640px;
+    }
+    
+    section#inicio > div#apresentacao {
+        font-size: 1em;
+        display: inline;
+        width: 60%;
+        padding-left: 15%;
+        position: relative;
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    section#inicio > div#apresentacao > p#medio {
+        padding-top: 300px;
+    }
+
+    div#fotofundoinicio {
+        background: url(../imagens/fundoofc.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 30%;
+        margin-right: 5%;
+        transition: background-image 0.3s;
+    }
+
+    div#fotofundoinicio:hover {
+        background: url(../imagens/fundo24.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        transition: 0.3s;
+    }
+
+    section#sobremim {
+        height: 545px;
+        background: url(../imagens/background3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    section#sobremim > h2 {
+        font-size: 1.9em;
+    }
+
+    section#sobremim > div#sobremimtexto {
+        font-size: 1.3em;
+        width: 50%;
+        display: inline;
+        margin-right: 12%;
+        margin-top: 9%;
+        padding: 0px;
+        position: relative;
+    }
+
+    span#sobremimlateral {
+        float: none;
+    }
+
+    section#sobremim > div#fotofundosobremim {
+        display: inline;
+        position: relative;
+        background: url(../imagens/sobremimfundopeb.png);
+        width: 25%;
+        height: 80%;
+        margin-top: 1%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        transition: background-image 0.3s;
+    }
+
+    section#sobremim > div#fotofundosobremim:hover {
+        background: url(../imagens/sobremimfundocolorido.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0.3s;
+    }
+
+    section#certificados {
+        height: 87.5vh;
+        background: url(../imagens/background4.jpg);
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    section#certificados > h2 {
+        padding-top: 120px;
+    }
+
+    section#certificados > div#cert {
+        height: 150px;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    div#cert > a > p {
+        padding-top: 170px;
+        text-align: center;
+        width: 110px;
+    }
+
+    section#projetos {
+        height: 100%;
+        padding: 0% 16% 5% 16%;
+        background: url(../imagens/background3.jpg);
+        background-size: 600%;
+        background-position: center;
+    }
+
+    section#projetos > h2 {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    div.projeto {
+        height: 260px;
+        width: 200px;
+    }
+
+    div.projeto > span.material-symbols-outlined{
+        font-size: 3em;
+    }
+
+    div.projeto > p {
+        font-size: 1.1em;
+    }
+
+    div#projeto1 > p {
+        margin-top: -10%;
+    }
+
+    div#projeto2 > p {
+        margin-top: -7%;
+    }
+
+    div#projeto3 > p {
+        margin-top: -10%;
+    }
+
+    div#projeto4 > p {
+        margin-top: -8%;
+    }
+
+    div#projeto5 > p {
+        margin-top: -7%;
+    }
+
+    div#projeto6 > p {
+        margin-top: -5%;
+    }
+
+    div#conticons {
+        width: 30%;
+    }       
+}

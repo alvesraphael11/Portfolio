@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+span#amarelo {
+    color: #ff9100;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: block;
+    padding: 0px;
+    padding-top: 15px;
+    background-color: #396073;
+    color: #bfbfbf;
+    width: 100%;
+    position: fixed;
+    z-index: 9900;
+}
+
+nav > h1, span#burguer, span#itens > a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+
+nav > h1 {
+    font-size: 1.8em;
+}
+
+nav > span#burguer {
+    margin: 5px 0px 10px 0px;
+}
+
+nav > span#burguer:hover {
+    color: #ff9100;
+    cursor: pointer;
+}
+
+nav > span#itens > a {
+    font-size: 1.2em;
+    padding-top: 9px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #bfbfbf;
+    padding-bottom: 9px;
+    background-color: #0019267a;
+    margin: 1px 0px;
+}
+
+nav > span#itens > a:hover {
+    color: #ff9100;
+    background-color: transparent;
+}
+
+nav > span#itens {
+        display: none;
+}
+
+section#inicio {
+    background-color: #001926;
+    background-image: linear-gradient(to top left, #001926, #033e5e);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 660px;
+    color: #bfbfbf;
+}
+
+section#inicio > div#apresentacao {
+    font-size: 0.7em;
+    display: block;
+    width: 100%;
+    padding-left: 35px;
+    margin-bottom: 40px;
+}
+
+section#inicio > div#apresentacao > p#medio {
+    font-size: 2em;
+    padding-top: 210px;
+}
+
+section#inicio > div#apresentacao > p#grande {
+    font-size: 2.7em;
+}
+
+section#inicio > #apresentacao > p#pequeno {
+    font-size: 1.8em;
+}
+
+div#fotofundoinicio {
+    background: url(../imagens/fundo242.png);
+    background-position: bottom right;
+    height: 328px;
+    width: 60vw;
+    position: relative;
+    display: inline;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-4px 3px 3px rgba(0, 0, 0, 0.349));
+}
+
+section#sobremim {
+    height: 610px;
+    background-image: linear-gradient(to top right, #001018, #011f30);
+    font-size: 0.75em;
+    color: white;
+}
+
+section#sobremim > h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+section#sobremim > div#sobremimtexto {
+    width: 100%;
+    display: block;
+    margin: 0px 0px -90px 0px;
+    padding: 35px 35px 0px 35px;
+    float: right;
+    height: 360px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+div#sobremimtexto > h2 {
+    margin-bottom: 20px;
+}
+
+div#sobremimtexto > p {
+    margin-bottom: 10px;
+}
+
+span#sobremimlateral {
+    position: relative;
+    display: inline;
+    width: 55%;
+    padding-left: 20px;
+    float: right;
+}
+
+
+section#sobremim > div#fotofundosobremim {
+    display: block;
+    background: url(../imagens/sobremimfundocolorido.png);
+    width: 60%;
+    height: 328px;
+    margin: -50px 0px 0px 0px;
+    background-position: bottom left;
+    position: relative;
+    float: left;
+    filter: drop-shadow(4px 3px 3px rgba(0, 0, 0, 0.384));
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section#certificados {
+    height: 87.5vh;
+    background: url(../imagens/background2.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+section#certificados {
+    height: 280px;
+    background-image: linear-gradient(to top left, #001926, #033e5e);
+}
+
+section#certificados > h2 {
+    text-align: center;
+    padding: 30px 3px;
+}
+
+section#certificados > div#cert {
+    width: 100%;
+    height: 100px;
+    padding: 0px 25px;
+    font-size: 0.7em;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#cert > a > img {
+    position: absolute;
+    height: 100%;
+    transition: hover 0.2s;
+    text-decoration: none;
+}
+
+div#cert > a:hover {
+    filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.336));
+    transition: 0.2s;
+}
+
+
+div#cert > a > p {
+    padding-top: 170px;
+    width: 110px;
+}
+
+div#cert > a > p {
+    padding-top: 120px;
+    width: 75px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+section#projetos {
+    height: 100%;
+    padding-bottom: 25px;
+    background-image: linear-gradient(to top right, #001018, #011f30);
+    margin: 0px;
+    text-align: center;
+}
+
+section#projetos > h2 {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+div.projeto {
+    height: 210px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+div.projeto:hover {
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.336);
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.336);
+    transition: 0.2s;
+}
+
+div.projeto > span.material-symbols-outlined{
+    font-size: 2em;
+    width: 100%;
+    margin-top: -2px;
+    padding: 2px 0px;
+    color: #001926;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div.projeto > p {
+    position: absolute;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+    margin: 0px 15px;
+}
+
+div#projeto1 > p {
+    padding-top: 25%;
+}
+
+div#projeto2 > p {
+    padding-top: 15%;
+}
+
+div#projeto3 > p {
+    padding-top: 20%;
+}
+
+div#projeto4 > p {
+    padding-top: 15%;
+}
+
+div#projeto5 > p {
+    padding-top: 20%;
+}
+
+div#projeto6 > p {
+    padding-top: 10%;
+}
+
+section#contato {
+    height: 100px;
+    background-image: linear-gradient(to top right, #396073, #001926);
+    padding: 0px 100px;
+    margin-left: -45px;
+}
+
+
+div#conticons {
+    width: 25%;
+}
+
+div#conticons {
+    width: 65%;
+    position: relative;
+    display: flex;
+    height: 70px;
+    padding-top: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+section#contato > div#conticons > a > img {
+    position: absolute;
+    height: 70%;
+}
+
+section#contato > div#conticons > a > img:hover{
+    filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.336));
+}
+
+
+
+
+
+
+
