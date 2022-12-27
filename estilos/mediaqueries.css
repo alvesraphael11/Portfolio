@@ -378,7 +378,7 @@ Typical Devices Breakpoints
     }
 
     section#certificados > h2 {
-        padding-top: 120px;
+        padding-top: 200px;
     }
 
     section#certificados > div#cert {
@@ -416,31 +416,31 @@ Typical Devices Breakpoints
     }
 
     div.projeto > p {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     div#projeto1 > p {
-        margin-top: -10%;
+        margin-top: -5%;
     }
 
     div#projeto2 > p {
-        margin-top: -7%;
+        margin-top: -0%;
     }
 
     div#projeto3 > p {
-        margin-top: -10%;
+        margin-top: -5%;
     }
 
     div#projeto4 > p {
-        margin-top: -8%;
+        margin-top: -3%;
     }
 
     div#projeto5 > p {
-        margin-top: -7%;
+        margin-top: -2%;
     }
 
     div#projeto6 > p {
-        margin-top: -5%;
+        margin-top: 0%;
     }
 
     div#conticons {
