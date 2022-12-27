@@ -88,10 +88,6 @@ Typical Devices Breakpoints
         background-image: url(../imagens/background2.jpg);
         height: 640px;
     }
-
-    h1 {
-        color: blue;
-    }
     
     section#inicio > div#apresentacao {
         font-size: 0.9em;
@@ -262,7 +258,6 @@ Typical Devices Breakpoints
     }
     
     nav > h1 {
-        color: red;
         margin: 4px 0px 0px 0px;
         width: 150px;
         height: 40px;
