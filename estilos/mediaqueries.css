@@ -261,7 +261,6 @@ Typical Devices Breakpoints
         margin: 4px 0px 0px 0px;
         width: 150px;
         height: 40px;
-        color: red;
     }
     
     nav > span#itens {
@@ -416,27 +415,27 @@ Typical Devices Breakpoints
     }
 
     div#projeto1 > p {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     div#projeto2 > p {
-        margin-top: 5%;
+        margin-top: 6%;
     }
 
     div#projeto3 > p {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     div#projeto4 > p {
-        margin-top: 0%;
+        margin-top: 1%;
     }
 
     div#projeto5 > p {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     div#projeto6 > p {
-        margin-top: 5%;
+        margin-top: 6%;
     }
 
     div#conticons {
