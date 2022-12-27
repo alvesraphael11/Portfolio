@@ -258,6 +258,7 @@ Typical Devices Breakpoints
     }
     
     nav > h1 {
+        color: red;
         margin: 4px 0px 0px 0px;
         width: 150px;
         height: 40px;
@@ -366,20 +367,20 @@ Typical Devices Breakpoints
     }
 
     section#certificados {
-        height: 87.5vh;
+        height: 500px;
         background: url(../imagens/background4.jpg);
         background-position: bottom;
         background-size: cover;
     }
 
     section#certificados > h2 {
-        padding-top: 200px;
+        padding-top: 120px;
     }
 
     section#certificados > div#cert {
         height: 150px;
         width: 50%;
-        margin-top: 40px;
+        margin-top: 15px;
     }
 
     div#cert > a > p {
@@ -423,7 +424,7 @@ Typical Devices Breakpoints
     }
 
     div#projeto3 > p {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     div#projeto4 > p {
