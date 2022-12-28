@@ -368,7 +368,7 @@ Typical Devices Breakpoints
     section#certificados {
         height: 500px;
         background: url(../imagens/background4.jpg);
-        background-position: bottom;
+        background-position: center;
         background-size: cover;
     }
 

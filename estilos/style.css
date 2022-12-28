@@ -266,6 +266,7 @@ div.projeto > span.material-symbols-outlined{
 }
 
 div.projeto > p {
+    width: 80%;
     position: absolute;
     font-size: 0.8em;
     color: white;
@@ -274,27 +275,27 @@ div.projeto > p {
 }
 
 div#projeto1 > p {
-    padding-top: 15%;
+    padding-top: 70px;
 }
 
 div#projeto2 > p {
-    padding-top: 5%;
+    padding-top: 70px;
 }
 
 div#projeto3 > p {
-    padding-top: 10%;
+    padding-top: 70px;
 }
 
 div#projeto4 > p {
-    padding-top: 5%;
+    padding-top: 70px;
 }
 
 div#projeto5 > p {
-    padding-top: 10%;
+    padding-top: 70px;
 }
 
 div#projeto6 > p {
-    padding-top: 5%;
+    padding-top: 70px;
 }
 
 section#contato {
