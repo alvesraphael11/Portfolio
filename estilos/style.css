@@ -279,7 +279,8 @@ div#projeto1 > p {
 }
 
 div#projeto2 > p {
-    padding-top: 3%;
+    padding-top: 5%;
+    background-color: green;
 }
 
 div#projeto3 > p {
