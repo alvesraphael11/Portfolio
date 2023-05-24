@@ -265,7 +265,7 @@ div.projeto > span.material-symbols-outlined{
     border-radius: 15px 15px 0px 0px;
 }
 
-div.projeto > p {
+div.projeto > div.divP > p {
     width: 80%;
     position: absolute;
     font-size: 0.8em;
@@ -274,28 +274,10 @@ div.projeto > p {
     margin: 0px 15px;
 }
 
-div#projeto1 > p {
-    padding-top: 15%;
-}
-
-div#projeto2 > p {
-    padding-top: 6%;
-}
-
-div#projeto3 > p {
-    padding-top: 11%;
-}
-
-div#projeto4 > p {
-    padding-top: 5%;
-}
-
-div#projeto5 > p {
-    padding-top: 13%;
-}
-
-div#projeto6 > p {
-    padding-top: 5%;
+div.divP {
+    height: 80%;
+    display: flex;
+    align-items: center;
 }
 
 section#contato {
